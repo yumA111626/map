@@ -6,14 +6,26 @@
 	objectVersion = 90;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AA717E3A30A5FE0100DA464D /* AGENTS.md in Resources */ = {isa = PBXBuildFile; fileRef = AA717E3930A5FDFC00DA464D /* AGENTS.md */; };
+		AA717E3C30A6007E00DA464D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AA717E3B30A6007700DA464D /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = map.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA717E3930A5FDFC00DA464D /* AGENTS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AGENTS.md; sourceTree = "<group>"; };
+		AA717E3B30A6007700DA464D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		000000000000000000000010 /* map */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = map;
+			sourceTree = "<group>";
+		};
+		AA717E4A30A75FDA00DA464D /* search */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = search;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -30,8 +42,11 @@
 		000000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
+				AA717E3930A5FDFC00DA464D /* AGENTS.md */,
+				AA717E3B30A6007700DA464D /* .gitignore */,
 				000000000000000000000010 /* map */,
 				000000000000000000000020 /* Products */,
+				AA717E4A30A75FDA00DA464D /* search */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +73,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				000000000000000000000010 /* map */,
+				AA717E4A30A75FDA00DA464D /* search */,
 			);
 			name = map;
 			productName = MyApp;
@@ -102,6 +118,8 @@
 		000000000000000140000000 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				AA717E3A30A5FE0100DA464D /* AGENTS.md in Resources */,
+				AA717E3C30A6007E00DA464D /* .gitignore in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
@@ -257,6 +275,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "VPSで周囲の映像を解析し、端末の位置と向きを推定するためにカメラを使用します。";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -295,6 +314,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "VPSで周囲の映像を解析し、端末の位置と向きを推定するためにカメラを使用します。";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
